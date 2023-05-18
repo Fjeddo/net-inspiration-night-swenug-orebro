@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>CommNight.May._2023.Web</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CommNight.May.2023.Dispatcher\CommNight.May.2023.Domain.csproj" />
+    <ProjectReference Include="..\CommNight.May.2023.WithoutEncapsulation\CommNight.May.2023.CodeContainers.csproj" />
+  </ItemGroup>
+
+</Project>
